@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body__index{
+    width: 100% auto;
+    margin: 0 auto;
+}
+
+/* estilos del conteines */
+.div__principal__index{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 0.2fr 3fr auto;
+    grid-template-areas: "header__index"
+                         "main__index"
+                         "footer__index";
+}
+
+
+
+.header__index{
+    grid-area: header__index;
+    background-color: rgb(119, 109, 95);
+}
+
+.nav__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo__index{
+    width: 15%;
+    /* Traslada el contenido dirigiendo hacia la Y , X */
+    transform: translate(-15px, 15px);
+    animation-name: un_efecto;
+}
+
+
+
+.anclas__index{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black
+    
+    
+}
+
+/* llamamos a la clase y agregamos :hover para decirle que
+cuando pase el click en este ejemplo cambie de color */
+/* y :focus cambia hacemos click en el elemento */
+.anclas__index:hover{
+    color:white
+}
+
+.enlaces__index{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    /* Separa los enlaces para que no esten pegados */
+    justify-content: space-around;
+}
+
+
+.main__index{
+    grid-area: main__index;
+    width: 100%;
+
+}
+
+.letras__index__imagen{
+    font-size: 2rem;
+    color: white;
+}
+
+.section__1{
+    width: 100%;
+}
+
+.section__2{
+    background-color: rgba(2, 2, 2, 0.651);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.redes{
+    margin-top: 2cm;
+    
+}
+
+
+.footer__index{
+    grid-area: footer__index;
+    /* Generamos gradiente desde la web https://mycolor.space/ */
+    background-image: linear-gradient(to top, white, rgba(2, 2, 2, 0.651));
+    color: black;
+    font-size: larger;
+    
+   
+}
+
+
+
+
+.fondo__div__section1{
+    background-image: url("../../Primer Entrega/img/LogoInicio.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+
+/* GALERIA */
+
+.div__principal__galeria{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 0.2fr 3fr auto;
+    grid-template-areas: "header__galeria"
+                         "main__galeria"
+                         "footer__galeria";
+}
+
+
+
+
+.header__galeria{
+    grid-area: header__galeria;
+    background-color: rgb(119, 109, 95);
+}
+
+.nav__header__galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo__galeria{
+    width: 15%;
+    transform: translate(-15px, 15px);
+}
+
+.anclas__galeria{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black
+    
+}
+
+.anclas__galeria:hover{
+    color:white
+}
+
+.enlaces__galeria{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    /* Separa los enlaces para que no esten pegados */
+    justify-content: space-around;
+}
+
+
+.section1__galeria{
+    width: 100%;
+    background-color: rgba(2, 2, 2, 0.651);
+}
+
+.section2__galeria{
+    background-color: rgba(2, 2, 2, 0.651);
+    justify-content: space-around;
+    width: 100%;
+}
+
+.main__galeria{
+    grid-area: main__galeria;
+    width: 100%;
+}
+
+.footer__galeria{
+    grid-area: footer__galeria;
+    background-image: linear-gradient(to top, white, rgba(2, 2, 2, 0.651));
+    color: black;
+    font-size: larger;
+}
+
+
+
+/* NOSOTROS */
+
+.div__principal__nosotros{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 0.2fr 3fr auto;
+    grid-template-areas: "header__nosotros"
+                         "main__nosotros"
+                         "footer__nosotros";
+}
+
+
+
+
+.header__nosotros{
+    grid-area: header__nosotros;
+    background-color: rgb(119, 109, 95);
+}
+
+.nav__header__nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo__nosotros{
+    width: 15%;
+    transform: translate(-15px, 15px);
+}
+
+.anclas__nosotros{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black
+    
+}
+
+.anclas__nosotros:hover{
+    color:white
+}
+
+.enlaces__nosotros{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    /* Separa los enlaces para que no esten pegados */
+    justify-content: space-around;
+}
+
+
+.section1__nosotros{
+    background-color: rgba(2, 2, 2, 0.651);
+    font-size: x-large;
+    color: gainsboro;
+  
+}
+
+.section2__nosotros{
+    background-color: rgba(2, 2, 2, 0.651);
+}
+
+.section3__nosotros{
+    background-color: rgb(119, 109, 95);
+    color: black
+}
+
+.main__nosotros{
+    grid-area: main__nosotros;
+    width: 100%;
+}
+
+.footer__nosotros{
+    grid-area: footer__nosotros;
+    background-image: linear-gradient(to top, white, rgb(119, 109, 95));
+    color: black;
+    font-size: larger;
+}
+
+.color__titulo{
+    color: black;
+}
+
+.nuestrahistoria{
+    width: 80%;
+}
+
+/* CONTACTO */
+
+.div__principal__contacto{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 0.2fr 4fr auto;
+    grid-template-areas: "header__contacto"
+                         "main__contacto"
+                         "footer__contacto";
+}
+
+
+
+.header__contacto{
+    grid-area: header__contacto;
+    background-color:rgb(119, 109, 95);
+}
+
+.nav__contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo__contacto{
+    width: 15%;
+    transform: translate(-15px, 15px);
+}
+
+.anclas__contacto{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black
+    
+}
+
+.anclas__contacto:hover{
+    color:white
+}
+
+.enlaces__contacto{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    /* Separa los enlaces para que no esten pegados */
+    justify-content: space-around;
+}
+
+.main__contacto{
+    grid-area: main__contacto;
+    background-color: rgba(2, 2, 2, 0.651);
+    width: 100%;
+
+}
+
+.letras__index__imagen{
+    font-size: 2rem;
+    color: white;
+}
+
+.section1__contacto{
+    width: 100%;
+}
+
+
+
+.footer__contacto{
+    grid-area: footer__contacto;
+    background-image: linear-gradient(to top, white, rgba(2, 2, 2, 0.651));
+    color: black;
+    font-size: larger;
+}
+
+
+
+
+.fondo__div__section1{
+    background-image: url("../../Primer Entrega/img/LogoInicio.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.fondo__formulario{
+    background-image: url("../img/FondoHilosContacto2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.contenedora__Cotizacion{
+    background-color: rgba(2, 2, 2, 0.651);
+    color: white;
+    font-size: xx-large;
+}
+.datos__personales{
+    color: white;
+}
+
+textarea{
+    width:400px;
+    height:100px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;           
+    margin:8px 0;
+    /*resize: vertical | horizontal | none | both*/
+    resize:none;
+    display:block;
+}
+
+@media screen and (max-width: 700px){
+
+.anclas__contacto{   
+        font-size: 1rem; 
+    }
+    .anclas__index{
+        font-size: 1rem;
+    }
+
+    .anclas__galeria{
+        font-size: 1rem;
+    }
+
+    .anclas__nosotros{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+/* .icons-wrapper{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+  
+}
+
+.icons-wrapper::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+/* ======================== */
+
+/*
+    The following styles will add linear gradient background to the text then it will clip the text shape into the background.
+    The result is gradient text.
+*/
+/* .ri-instagram-line{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* This is the first item so no animation delay needed.
+}
+
+.ri-facebook-circle-line{
+    color: #1877f2;
+    animation-delay: 0.5s; /* Adds a animation delay of 1 seconds.*/
+/* } 
+
+.ri-whatsapp-line{
+    color: #25d366;
+    animation-delay: 1s; /* Adds a animation delay of 2 seconds.*/
+
+
+
+
+
+
+.logo__redes{
+    display: inline-block; /*Makes the icons inline block level elements. This will let us animate the transform property.*/ 
+    font-size: 44px;
+    animation: float 4s ease-in-out infinite; /*Applies the float keyframe animation over 5s and makes it run infinitely.*/
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0); /*The starting point of the animation is 0.*/
+    }
+    50%{
+        transform: translateY(-25px); /*The middle point of the animation is -15xp. This will move the element up.*/
+    }
+    100%{
+        transform: translateY(0); /*The last point of the animation is going back to the starting state of 0.*/
+    }
+}
+
+.parrafo__redes{
+    display: grid;
+    transform: translate(-33px, -30px);
+    font-size: x-large;
+    
+}
+
