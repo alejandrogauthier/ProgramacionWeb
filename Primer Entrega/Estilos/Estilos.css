@@ -1,0 +1,162 @@
+
+
+/* ASI SE COMENTA */
+
+/* Se agrega el tipo de letra de font google con el fontsize y fontfamily */
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Radio+Canada:wght@300&family=Updock&display=swap');
+
+html{
+    font-family: 'Radio Canada', sans-serif;
+    font-size: bold;
+    }
+
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    
+    }
+.header__class{
+    background-color: rgb(119, 109, 95);
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+.main_index{
+    padding: 0px;
+    width: 100%;
+}
+
+.main__nosotros{
+    background-color: rgba(2, 2, 2, 0.651);
+    width: 100%;
+    color: black;
+}
+
+.main__contacto{
+    background-color: rgba(2, 2, 2, 0.651);
+    width: 100%;
+    
+}
+.index__mapa{
+    width: 100%;
+    color: white;
+}
+
+.parrafo__index{
+    background-color: rgba(2, 2, 2, 0.651);
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.galeria__videos{
+    background-color: rgba(2, 2, 2, 0.651);
+    font-size: 20px;
+    width: 100%;
+
+}
+
+.imagenes__galeria{
+    background-color: rgba(2, 2, 2, 0.651);
+    font-size: 20px;
+    width: 100%;
+}
+.fondo__formulario{
+    background-image: url("../img/FondoHilosContacto2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.contenedora__Cotizacion{
+    background-color: rgb(119, 109, 95);
+    color: white;
+    font-size: xx-large;
+}
+
+.datos__personales{
+    color: white;
+}
+
+.fondo__index{
+    background-image: url("../img/LogoInicio.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.nav__index{
+    background-color: rgb(119, 109, 95);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    padding: 20px;
+    /* .text-transform: uppercase; TEXT EN MAYUSCULA */
+    text-transform: uppercase;
+    height: 100px;
+    right: 100px;
+    
+}
+
+.letras{
+    color: white;
+    font-size: 0.5cm;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.body{
+    height: 100%;
+}
+
+textarea{
+    width:400px;
+    height:100px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;           
+    margin:8px 0;
+    /*resize: vertical | horizontal | none | both*/
+    resize:none;
+    display:block;
+}
+
+.container__index{
+    border: 1px solid black;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(2, 2, 2, 0.651);
+    /* .height 100% de la pantalla */
+    height: 31vh;
+
+    display: grid;
+    /*  PONERLE TAMAÑO A LOS DIV grid-template-columns: 200px 200px auto 200px 200px; */
+    /* PONEIDNO TODO AUTO TODOS SON IGUALES grid-template-columns: auto auto auto auto auto; */
+    grid-template-columns: 250px auto 250px;
+}
+
+.container div{
+    border: 1px solid black;
+    background-color: brown;
+    /* height: 200px; */
+}
+
+.redes{
+    
+   
+    margin: 0 auto;
+    background-color: rgba(2, 2, 2, 0.651);
+    /* .height 100% de la pantalla */
+    height: 0vh;
+
+    display: grid;
+    grid-template-rows: 100PX auto 100px;
+
+}
+
+

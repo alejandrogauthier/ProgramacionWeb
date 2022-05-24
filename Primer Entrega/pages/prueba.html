@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradiente</title>
+ <style>
+body{
+    height: 100vh;
+}
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .clase__prueba{
+        margin: 100px;
+        width: 200px;
+        height: 200px;
+        background-image: linear-gradient(to left, rgba(17, 224, 197, 0.466), yellow);
+        border: 1px solid white;
+        transition: all 2s;
+         }
+         .clase__prueba:hover{
+            background-image: linear-gradient(to left, red, black);
+            height: 400px;
+            width: 400px;
+            transform: scale(2);
+            
+              }
+
+              input{
+                  width: 50px;
+                  height: 50px;
+                  transition: all 2s;
+              }
+
+       input:focus{
+           width: 200px;
+           font-size: 24px;
+       }
+
+ </style>
+</head>
+<body>
+  
+    <div class="clase__prueba">
+        <h1>HOLA MUNDO!</h1>
+    
+    </div>
+
+<div>
+    <input type="text">
+</div>
+
+    <!-- <section>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+         Qui eius velit excepturi, commodi voluptas harum amet maxime 
+         ex laborum possimus similique deserunt sed soluta molestiae 
+         temporibus voluptates odio hic illo?
+    </section> -->
+
+</body>
+</html>
