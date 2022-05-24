@@ -5,6 +5,7 @@
 }
 .body__index{
     width: 100%;
+    background-color: black;
 }
 
 /* estilos del conteines */
@@ -40,6 +41,9 @@
 
 }
 
+.parrafo__mapa{
+    color: white;
+}
 .letras__index__imagen{
     font-size: 2rem;
     color: white;
@@ -103,6 +107,8 @@
 .body__galeria{
     background-color: lightgrey;
     font-family: sans-serif;
+    background-color: black;
+   
 }
 
 .div__principal__galeria{
@@ -120,6 +126,7 @@
 .header__galeria{
     grid-area: header__galeria;
     background-color: rgb(119, 109, 95);
+    height: 150px;
 }
 
 .nav__header__galeria{
@@ -140,6 +147,9 @@
     font-size: 2rem;
     color: black
     
+}
+.parrafo__videos{
+    color: white;
 }
 
 .anclas__galeria:hover{
@@ -260,6 +270,7 @@
 
 /* NOSOTROS */
 
+
 .div__principal__nosotros{
     display: grid;
     grid-template-columns: auto;
@@ -271,10 +282,10 @@
 
 
 
-
 .header__nosotros{
     grid-area: header__nosotros;
-    background-color: rgb(119, 109, 95);
+    background-color: black;
+    height: 150px;
 }
 
 .nav__header__nosotros{
