@@ -1,0 +1,45 @@
+@mixin grid( $color, $tamaño){ 
+    display: grid;
+    background-color: $color-header;
+    height: 150px;
+ }
+
+// HEADER INDEX
+.header__index{
+    grid-area: header__index;
+    @include grid($color-header,150px);
+     .logo__index {
+        width: 40%;
+        transform: translateX(100px);
+    }
+}
+
+// HEADER GALERIA
+.header__galeria{
+    grid-area: header__galeria;
+    @include grid($color-header,150px);
+    .logo__galeria{
+        width: 40%;
+        transform: translateX(100px);
+    }
+}
+
+// HEADER NOSOTROS
+.header__nosotros{
+    grid-area: header__nosotros;
+    @include grid($color-header,150px);
+    .logo__nosotros{
+        width: 40%;
+        transform: translateX(100px);
+    }
+}
+
+// HEADER CONTACTO
+.header__contacto{
+    grid-area: header__contacto;
+    @include grid($color-header,150px);
+    .logo__contacto{
+        width: 40%;
+        transform: translateX(100px);
+    }
+}

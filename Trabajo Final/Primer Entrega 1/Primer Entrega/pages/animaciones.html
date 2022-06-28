@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aniamciones</title>
+<style>
+    /* ANIMACIONES */
+  section {
+   width: 100px;
+   height: 100px;
+   background-color: green;
+   animation-name: un_efecto;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in;
+   animation-duration: 10s;
+   animation-delay: 10s;
+}
+
+/* INDICAMOS QUE REALIZAR EN LA LINEA DE TIEMPO */
+@keyframes un_efecto {
+   0%{ width: 100px; }
+   25%{ width: 300px; }
+   50%{ width: 400px;
+     background-color: red; }
+   75%{ width: 500px;}
+   100%{ width: 600px;
+     background-color:green;}
+}
+
+
+</style>
+</head>
+
+<body>
+    <section>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Dolores vel eligendi facere velit, labore repellendus molestiae
+             at obcaecati aliquam voluptatibus voluptatum consequatur,
+              animi dignissimos repellat error vero incidunt autem debitis.</p>
+    </section>
+</body>
+</html>
